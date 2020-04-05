@@ -6,3 +6,5 @@ services:
     volumes:
       - ./rules.json:/usr/src/app/rules.json
       - ./oauth_credentials:/usr/src/app/oauth_credentials
+    environment:
+      - TZ=Asia/Tokyo
