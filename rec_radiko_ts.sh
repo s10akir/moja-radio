@@ -480,15 +480,15 @@ fi
 
 # Generate default file path
 if [ -z "${output}" ]; then
-  output="${station_id}_${fromtime}_${totime}.m4a"
+  output="${station_id}_${fromtime}_${totime}.mp3"
 else
   # Fix file path extension
-  echo "${output}" | grep -q "\\.m4a$"
+  echo "${output}" | grep -q "\\.mp3$"
   ret=$?
 
   if [ ${ret} -ne 0 ]; then
-    # Add .m4a
-    output="${output}.m4a"
+    # Add .mp3
+    output="${output}.mp3"
   fi
 fi
 
@@ -498,9 +498,7 @@ ffmpeg \
     -fflags +discardcorrupt \
     -headers "X-Radiko-Authtoken: ${authtoken}" \
     -i "https://radiko.jp/v2/api/ts/playlist.m3u8?station_id=${station_id}&l=15&ft=${fromtime}00&to=${totime}00" \
-    -acodec copy \
     -vn \
-    -bsf:a aac_adtstoasc \
     -y \
     "${output}"
 ret=$?
