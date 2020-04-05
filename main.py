@@ -15,8 +15,9 @@ def record(rule, file_name):
         f' -s {rule["station"]}' \
         f' -f {YESTERDAY.strftime("%Y%m%d")}{rule["start"]}' \
         f' -d {rule["duration"]}' \
-        f' -o "/tmp/{file_name}"'
-    , shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        f' -o "/tmp/{file_name}"',
+        shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True
+    )
 
 
 def tagging(rule, file_name):
