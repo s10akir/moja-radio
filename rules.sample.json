@@ -1,0 +1,74 @@
+[
+  {
+    "title": "i田村ゆかりの乙女心♡症候群",
+    "artist": "田村ゆかり",
+    "station": "QRR",
+    "weekday": 3,
+    "start": "2130",
+    "duration": 30
+  },
+  {
+    "title": "A&Gリクエストアワー 阿澄佳奈のキミまち！",
+    "artist": "阿澄佳奈 青木佑磨 浅川梨奈",
+    "station": "QRR",
+    "weekday": 5,
+    "start": "1900",
+    "duration": 120
+  },
+  {
+    "title": "堀江由衣の天使のたまご",
+    "artist": "堀江由衣",
+    "station": "QRR",
+    "weekday": 5,
+    "start": "0200",
+    "duration": 30
+  },
+  {
+    "title": "上坂すみれの♡をつければかわいかろう",
+    "artist": "上坂すみれ",
+    "station": "QRR",
+    "weekday": 6,
+    "start": "0000",
+    "duration": 30
+  },
+  {
+    "title": "MOMO・SORA・SHIINA Talking Box",
+    "artist": "麻倉もも 雨宮天 夏川椎菜",
+    "station": "QRR",
+    "weekday": 6,
+    "start": "0200",
+    "duration": 30
+  },
+  {
+    "title": "にじさんじ presents リゼるるListen",
+    "artist": "リゼ・ヘルエスタ 鈴原るる",
+    "station": "QRR",
+    "weekday": 6,
+    "start": "2000",
+    "duration": 30
+  },
+  {
+    "title": "大橋彩香のAny Beat！",
+    "artist": "大橋彩香",
+    "station": "QRR",
+    "weekday": 6,
+    "start": "2100",
+    "duration": 30
+  },
+  {
+    "title": "Fate/Grand Order カルデア・ラジオ局 Plus",
+    "artist": "高橋李依 田中美海 大久保瑠美",
+    "station": "QRR",
+    "weekday": 6,
+    "start": "2130",
+    "duration": 30
+  },
+  {
+    "title": "水瀬いのり MELODY FLAG",
+    "artist": "水瀬いのり",
+    "station": "QRR",
+    "weekday": 6,
+    "start": "2200",
+    "duration": 30
+  }
+]
