@@ -2,7 +2,7 @@ version: "3"
 
 services:
   app:
-    build: .
+    image: s10akir/moja-radio:latest
     volumes:
       - ./rules.json:/usr/src/app/rules.json
       - ./oauth_credentials:/usr/src/app/oauth_credentials
